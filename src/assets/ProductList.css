@@ -39,8 +39,8 @@ body {
     border-radius: 5px;
     text-align: center;
     position: relative;
-    
     gap: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .product-card:hover {
@@ -74,6 +74,8 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
     margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #e74c3c;
 }
 
 .product-button:hover {
@@ -93,18 +95,22 @@ body {
 
 .product-card.sale .product-status {
     background-color: #e74c3c;
+    box-shadow: 0 0 10px #e74c3c;
 }
 
 .product-card.new-arrival .product-status {
     background-color: #3498db;
+    box-shadow: 0 0 10px #3498db;
 }
 
 .product-card.best-seller .product-status {
     background-color: #f1c40f;
+    box-shadow: 0 0 10px #f1c40f;
 }
 
 .product-card.sold-out .product-status {
     background-color: #95a5a6;
+    box-shadow: 0 0 10px #95a5a6;
 }
 
 .plantname_heading{
