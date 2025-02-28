@@ -39,7 +39,6 @@ body {
     border-radius: 5px;
     text-align: center;
     position: relative;
-    gap: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -168,4 +167,48 @@ body {
         border-right: none;
         margin-left: 30%;
       }
+  }
+
+  .plant-management {
+    padding: 20px;
+  }
+  
+  .plant-list {
+    margin-bottom: 20px;
+  }
+  
+  .update-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .update-form div {
+    margin: 10px 0;
+  }
+  
+  .update-form label {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  .update-form input, .update-form select {
+    width: 200px;
+    padding: 5px;
+  }
+  
+  .confirm-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  
+  .confirm-modal button {
+    margin: 0 10px;
   }
