@@ -209,9 +209,9 @@ const PlantDeleteUpdate = ({ plants, setPlants }) => {
                   padding: "5px",
                   backgroundColor:
                     selectedPlant && selectedPlant.id === plant.id
-                      ? "#e0f7fa" // Màu xanh nhạt khi được chọn
-                      : "transparent", // Không màu khi không chọn
-                  borderRadius: "4px", // Bo góc nhẹ
+                      ? "#e0f7fa" 
+                      : "transparent", 
+                  borderRadius: "4px", 
                 }}
               >
                 {plant.name}
@@ -233,7 +233,7 @@ const PlantDeleteUpdate = ({ plants, setPlants }) => {
         ))}
       </div>
 
-      {/* Form cố định gần danh sách plant */}
+     
       {selectedPlant && showUForm && !showConfirmUpdate && !showConfirmDelete && (
         <div
           className="update-form"

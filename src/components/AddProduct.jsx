@@ -158,7 +158,7 @@ function AddProduct({ plants, setPlants }) {
                                 onChange={handleFormChange}
                                 disabled={!categorySelected}
                             />
-                        </div>
+                        </div>  
                         <div>
                             <label>Cost:</label>
                             <input

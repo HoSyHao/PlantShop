@@ -28,7 +28,7 @@ function FilterProducts( {plants}) {
         <ul>
           {filteredProducts.map((plant, index) => (
             <li key={index}>
-              <Link to={`/plant/${plant.idid}`}>
+              <Link to={`/plant/${plant.id}`}>
                 {plant.name} - {plant.cost} ({plant.status || "No Status"})
               </Link>
             </li>
