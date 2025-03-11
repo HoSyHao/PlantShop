@@ -212,3 +212,60 @@ body {
   .confirm-modal button {
     margin: 0 10px;
   }
+
+  .plant-list {
+    text-align: center;
+  }
+  
+  .plant-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cột mỗi hàng */
+    gap: 20px; /* Khoảng cách giữa các phần tử */
+    padding: 20px;
+  }
+  
+  .plant-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .plant-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .plant-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .plant-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .detail-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease;
+  }
+  
+  .detail-btn:hover {
+    background-color: #218838;
+  }
+  
+  .loading-indicator {
+    height: 20px;
+    margin-top: 10px;
+  }
+  
